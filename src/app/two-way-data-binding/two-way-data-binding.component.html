@@ -1,0 +1,11 @@
+<!-- By using ngModel -->
+
+<input type="text" [(ngModel)]="name" >
+
+<p>{{name}}</p>
+
+<!-- Another way by using property and event binding -->
+
+<input type="text" (input)="onChangeName($event)" >
+
+<p>{{ profession }}</p>
